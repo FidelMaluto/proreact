@@ -18,7 +18,7 @@ const users = [
     "website": "hildegard.org",
     "empresa": {
       "nome": "Romaguera-Crona",
-      "Frase de efeito": "Rede neural cliente-servidor multicamadas"
+      "Frase de efeito": "Rede neural cliente-servidor multicamadas",
       "bs": "aproveitar os mercados eletrônicos em tempo real"
     }
   },
@@ -41,7 +41,7 @@ const users = [
     "website": "anastasia.net",
     "empresa": {
       "nome": "Deckow-Crist",
-      "Frase de efeito": "Contingência didática proativa"
+      "Frase de efeito": "Contingência didática proativa",
       "bs": "sinergizar cadeias de suprimentos escaláveis"
     }
   },
@@ -87,7 +87,7 @@ const users = [
     "website": "kale.biz",
     "empresa": {
       "nome": "Robel-Corkery",
-      "Frase de efeito": "Produtividade de tolerância zero em vários níveis"
+      "Frase de efeito": "Produtividade de tolerância zero em vários níveis",
       "bs": "transição para serviços web de ponta"
     }
   },
@@ -110,7 +110,7 @@ const users = [
     "website": "demarco.info",
     "empresa": {
       "nome": "Keebler LLC",
-      "Frase de efeito": "Solução tolerante a falhas centrada no usuário"
+      "Frase de efeito": "Solução tolerante a falhas centrada no usuário",
       "bs": "revolucionar sistemas de ponta a ponta"
     }
   },
@@ -156,7 +156,7 @@ const users = [
     "website": "elvis.io",
     "empresa": {
       "nome": "Grupo Johns",
-      "Frase de efeito": "Força-tarefa multimídia configurável"
+      "Frase de efeito": "Força-tarefa multimídia configurável",
       "bs": "gerar varejistas eletrônicos empresariais"
     }
   },
@@ -202,7 +202,7 @@ const users = [
     "website": "conrad.com",
     "empresa": {
       "nome": "Yost and Sons",
-      "Frase de efeito": "Projeto contextualizado e alternável"
+      "Frase de efeito": "Projeto contextualizado e alternável",
       "bs": "tecnologias agregadas em tempo real"
     }
   },
