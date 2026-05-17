@@ -32,9 +32,5 @@ cd proreact
 npm install
 
 npm start
-<<<<<<< HEAD
-
 
 Dev: Fidel Maluto
-=======
->>>>>>> 5c3d3bc (Update README.md)
