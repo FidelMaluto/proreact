@@ -1,4 +1,4 @@
-Conhecendo RACT
+Conhecendo REACT
 <img width="1341" height="587" alt="react" src="https://github.com/user-attachments/assets/3c01c2dd-c134-4d0b-9344-20fdd3dc4fd9" />
 
 Consumindo dados
