@@ -32,3 +32,5 @@ cd proreact
 npm install
 
 npm start
+
+Dev: Fidel Maluto

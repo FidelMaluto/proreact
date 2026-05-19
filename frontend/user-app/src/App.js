@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import "./index.css"
 const App = () => {
 
   const [user, setUsers] = useState([]);
@@ -18,15 +18,23 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="container">
       {user.map((data) => {
         return (
-          <div key={data.id} style={{ border: "1px solid gray", width: "500px" }}>
-            <h1>Name: {data.nome || data.name}</h1>
-            <h1>Username: {data["nome de usuário"] || data.username}</h1>
-            <h1>E-Mail: {data["e-mail"] || data.email}</h1>
+          <div key={data.id} className="card">
+            <h1 className="title">
+              Name: {data.nome || data.name}
+            </h1>
+
+            <h2 className="username">
+              Username: {data["nome de usuário"] || data.username}
+            </h2>
+
+            <p className="email">
+              E-Mail: {data["e-mail"] || data.email}
+            </p>
           </div>
-        )
+        );
       })}
     </div>
   )
