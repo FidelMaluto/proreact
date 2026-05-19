@@ -18,15 +18,59 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div
+      style={{
+        display: "flex",
+        flexWrap: "wrap",
+        gap: "20px",
+        padding: "20px",
+        justifyContent: "center",
+      }}
+    >
       {user.map((data) => {
         return (
-          <div key={data.id} style={{ border: "1px solid gray", width: "500px" }}>
-            <h1>Name: {data.nome || data.name}</h1>
-            <h1>Username: {data["nome de usuário"] || data.username}</h1>
-            <h1>E-Mail: {data["e-mail"] || data.email}</h1>
+          <div
+            key={data.id}
+            style={{
+              border: "1px solid #ddd",
+              width: "320px",
+              padding: "20px",
+              borderRadius: "12px",
+              backgroundColor: "#fff",
+              boxShadow: "0 4px 10px rgba(0,0,0,0.1)",
+              transition: "0.3s",
+            }}
+          >
+            <h1
+              style={{
+                fontSize: "22px",
+                color: "#222",
+                marginBottom: "10px",
+              }}
+            >
+              Name: {data.nome || data.name}
+            </h1>
+
+            <h2
+              style={{
+                fontSize: "18px",
+                color: "#555",
+                marginBottom: "10px",
+              }}
+            >
+              Username: {data["nome de usuário"] || data.username}
+            </h2>
+
+            <p
+              style={{
+                color: "#777",
+                fontSize: "16px",
+              }}
+            >
+              E-Mail: {data["e-mail"] || data.email}
+            </p>
           </div>
-        )
+        );
       })}
     </div>
   )
